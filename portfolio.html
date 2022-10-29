@@ -14,12 +14,11 @@
   <body>
       <header class="top-page">
         <nav>
-          <!-- spanned logo correct? -->
           <a href="WebStudio" lang="en" class="logo"> <span class="part-logo">Web</span>Studio</a>
           <ul class="navigation">
-            <li><a href="./index.html" class="navigation-link">Студія</a></li>
-            <li><a href="./portfolio.html" class="navigation-link">Портфоліо</a></li>
-            <li><a href="#" class="navigation-link">Контакти</a></li>
+            <li><a href="./index.html" class="navigation-link current">Студія</a></li>
+            <li><a href="./portfolio.html" class="navigation-link current">Портфоліо</a></li>
+            <li><a href="#" class="navigation-link current">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contacts">
@@ -27,31 +26,32 @@
           <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
         </ul>
       </header>
+      <!-- main unique part -->
     <main>
       <nav>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="button-list">
+          <li><button type="button" class="button-item">Усі</button></li>
+          <li><button type="button"class="button-item">Веб-сайти</button></li>
+          <li><button type="button"class="button-item">Додатки</button></li>
+          <li><button type="button"class="button-item">Дизайн</button></li>
+          <li><button type="button"class="button-item">Маркетинг</button></li>
         </ul>
       </nav>
+      <!-- section projects -->
       <section>
-        <h1>Проекти</h1>
-        <ul>
-          <li>
-            <a href="#" target="_blank" rel="noopener nofollow noreferrer"
-              ><img
+        <h1 class="projects-hidden">Проекти</h1>
+        <ul class="projects-list">
+          <li class="projects">
+            <a href="#" target="_blank" rel="noopener nofollow noreferrer" ><img
                 src="./images/technoduck.jpg"
                 alt="Веб-сайт Технокряк"
                 width="370"
                 height="294"
             /></a>
             <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <p class="project-description">Веб-сайт</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/neworleans.jpg"
@@ -60,9 +60,9 @@
                 height="294"
             /></a>
             <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <p class="project-description">Дизайн</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/seafood.jpg"
@@ -70,10 +70,10 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
+            <h2 >Ресторан Seafood</h2>
+            <p class="project-description">Додаток</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/prime.jpg"
@@ -81,10 +81,10 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
+            <h2 >Проєкт Prime</h2>
+            <p class="project-description">Маркетинг</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/boxes.jpg"
@@ -92,10 +92,10 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
+            <h2 >Проєкт Boxes</h2>
+            <p class="project-description">Додаток</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/inspiration.jpg"
@@ -104,9 +104,9 @@
                 height="294"
             /></a>
             <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <p class="project-description">Веб-сайт</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/limited.jpg"
@@ -114,10 +114,10 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 >Видання Limited Edition</h2>
+            <p class="project-description">Дизайн</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/lab.jpg"
@@ -125,10 +125,10 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
+            <h2 >Проєкт LAB</h2>
+            <p class="project-description">Маркетинг</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#" target="_blank" rel="noopener nofollow noreferrer"
               ><img
                 src="./images/growingb.jpg"
@@ -137,20 +137,20 @@
                 height="294"
             /></a>
             <h2>Growing Business</h2>
-            <p>Додаток</p>
+            <p class="project-description">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="WebStudio" lang="en">WebStudio</a>
-      <address>
-        <ul>
-          <li><a href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
-    </footer>
+  <footer class="bottom-page">
+    <a href="WebStudio" lang="en" class="logo-footer"><span class="part-logo">Web</span>Studio</a>
+    <address>
+      <ul class="link">
+        <li><a href="#" class="link-address">м. Київ, пр-т Лесі Українки, 26 </a></li>
+        <li><a href="mailto:info@devstudio.com" class="link-list">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="link-list">+38 096 111 11 11</a></li>
+      </ul>
+    </address>
+  </footer>
   </body>
 </html>
