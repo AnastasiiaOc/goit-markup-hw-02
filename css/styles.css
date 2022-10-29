@@ -12,6 +12,12 @@
     --footer-background-color:#2F303A;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--heading-color);
+}
+
+/* design header */
 .top-page {
 
     background-color: var(--head-background-color); 
@@ -72,18 +78,99 @@
     color: var(--logo-hover-color);
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--heading-color);
+/* design main HTML */
+.hero {
+    background-color: var(--footer-background-color);
+        width: 1600px;
+        left: 0px;
+        top: 80px;
+}
+.hero-title {
+ color: var(--white-logo-hero-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
+.hero-button{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--white-logo-hero-color);
+        background-color: var(--logo-hover-color);
+}
 
+/* section Особливості */
+.advantages{
+    background-color: var(--main-background-color);
+}
+.advantages-hidden{
+    display: none;
+}
+.advantages-list{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
-    
-    /* color of logo and hover  #2196F3*/
+.advantages-list-text{
+    color: var(--paragraps-color); 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+/* section Чим ми займаємося*/
+.actions{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+/*section Наша команда*/
+.team{
+    background-color: var(--secondary-background-color);
+}
+.team-heading{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
 
-/* white h1 and footer logo coloR*#FFFFFF/ 
-/*black logo color*#000000/ #000000
+.team-members{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.team-job{
+    color: var(--paragraps-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
 /* color of headers #212121
  color of paragraphs  #757575 */
 
