@@ -1,306 +1,288 @@
-:root{
-    --heading-color:#212121;
-    --paragraps-color:#757575;
-    --logo-hover-color:#2196F3;
-    --black-logo-color:#000000;
-    --white-logo-hero-color:#FFFFFF;
-    --white-transparent-color: rgba(255, 255, 255, 0.6);
+:root {
+  --heading-color: #212121;
+  --paragraps-color: #757575;
+  --logo-hover-color: #2196f3;
+  --black-logo-color: #000000;
+  --white-logo-hero-color: #ffffff;
+  --white-transparent-color: rgba(255, 255, 255, 0.6);
 
-
-    --head-background-color:#FFFFFF;
-    --main-background-color:#F5F5F5;
-    --secondary-background-color:#F5F4FA;
-    --footer-background-color:#2F303A;
-    --card-background-color:#EEEEEE;
+  --head-background-color: #ffffff;
+  --main-background-color: #f5f5f5;
+  --secondary-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --card-background-color: #eeeeee;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--heading-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--heading-color);
 }
 
 /* design header */
 .top-page {
-    background-color: var(--head-background-color); 
-    width: 1600px;
+  background-color: var(--head-background-color);
+  width: 1600px;
 }
-.logo{
-    color: var(--black-logo-color);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-
+.logo {
+  color: var(--black-logo-color);
+  font-weight: 700;
+  font-size: 26px;
+  /* line-height: 31px; */
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .part-logo {
-    color: var(--logo-hover-color);
-    font-family: 'Raleway';
+  color: var(--logo-hover-color);
+  font-family: "Raleway";
 }
 
-.navigation{
-    list-style: none;
+.navigation {
+  list-style: none;
 }
 
-.navigation-link{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color: var(--heading-color);
-        text-decoration: none;
-
+.navigation-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 16px; */
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--heading-color);
+  text-decoration: none;
 }
+
 .navigation-link:hover,
-.navigation-link:focus{
-    color: var(--logo-hover-color);
+.navigation-link:focus {
+  color: var(--logo-hover-color);
 }
 
-/* this doesn't work */
 .navigation .navigation-link.current {
-    color: var(--logo-hover-color);
+  color: var(--logo-hover-color);
 }
 
 .contacts {
-    list-style: none;
+  list-style: none;
 }
 
-.contact-link{
-    color: var(--paragraps-color);
-    text-decoration:none;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+.contact-link {
+  color: var(--paragraps-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 16px; */
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
-.contact-link:focus{
-    color: var(--logo-hover-color);
+.contact-link:focus {
+  color: var(--logo-hover-color);
 }
 
 /* design main HTML */
 .hero {
-    background-color: var(--footer-background-color);
-        width: 1600px;
-        left: 0px;
-        top: 80px;
+  background-color: var(--footer-background-color);
+  width: 1600px;
+  left: 0px;
+  top: 80px;
 }
 .hero-title {
- color: var(--white-logo-hero-color);
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+  color: var(--white-logo-hero-color);
+  font-weight: 900;
+  font-size: 44px;
+  /* line-height: 60px; */
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.hero-button{
-    font-family: inherit;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: var(--white-logo-hero-color);
-        background-color: var(--logo-hover-color);
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  /* line-height: 30px; */
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-logo-hero-color);
+  background-color: var(--logo-hover-color);
 }
 
 /* section Особливості */
-.advantages{
-    background-color: var(--main-background-color);
+.advantages {
+  background-color: var(--main-background-color);
 }
-.advantages-hidden{
-    display: none;
-}
-
-.advantages-lists{
-    list-style: none;
-}
-.advantages-list{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.advantages-hidden {
+  display: none;
 }
 
-.advantages-list-text{
-    color: var(--paragraps-color); 
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
+.advantages-lists {
+  list-style: none;
+}
+.advantages-list {
+  font-weight: 700;
+  font-size: 14px;
+  /* line-height: 16px; */
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-list-text {
+  color: var(--paragraps-color);
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 24px; */
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
 }
 /* section Чим ми займаємося*/
-.actions{
-    font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
+.actions {
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 42px; */
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.actions-illustrations{
-    list-style: none;
+.actions-illustrations {
+  list-style: none;
 }
 /*section Наша команда*/
-.team{
-    background-color: var(--secondary-background-color);
+
+.team {
+  background-color: var(--secondary-background-color);
 }
-.team-heading{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 42px; */
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.team-list{
-    list-style: none;
+.team-list {
+  list-style: none;
 }
 
-.team-card{
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-        background-color: var(--head-background-color);
+.team-card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--head-background-color);
 }
 
 .team-card:hover,
-.team-card:focus{
-        border: 1px solid var(--logo-hover-color);
+.team-card:focus {
+  border: 1px solid var(--logo-hover-color);
 }
 
-.team-members{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        letter-spacing: 0.03em;
+.team-members {
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 19px; */
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.team-job{
-    color: var(--paragraps-color);
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        letter-spacing: 0.03em;
+.team-job {
+  color: var(--paragraps-color);
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 19px; */
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*design footer HTML and portfolio*/
-.bottom-page{
-    background-color: var(--footer-background-color);
+.bottom-page {
+  background-color: var(--footer-background-color);
 }
-.logo-footer{
-    color: var(--white-logo-hero-color);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-}
-
-.link{
-    list-style: none;
+.logo-footer {
+  color: var(--white-logo-hero-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  /* line-height: 31px; */
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.link-address, .link-list{
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--white-logo-hero-color);
+.link {
+  list-style: none;
 }
 
-.link-list{
-    color: var(--white-transparent-color);
+.link-address,
+.link-list {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 24px; */
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: var(--white-logo-hero-color);
 }
 
-/* portfolio main */
-.button-list{
-    font-family: inherit;
-    list-style: none;
-    font-family: inherit;
+.link-list {
+  color: var(--white-transparent-color);
 }
 
-.button-item{
-    font-family:inherit ;
-    background-color: var(--secondary-background-color);
-    border:none;
+/* PORTFOLIO MAIN */
+
+.button-list {
+  font-family: inherit;
+  list-style: none;
+}
+
+.button-item {
+  font-family: inherit;
+  background-color: var(--secondary-background-color);
+  border: none;
+  cursor: pointer;
 }
 .button-item:hover,
-.button-item:focus{
-    background-color: var(--logo-hover-color);
-    color: var(--white-logo-hero-color);
+.button-item:focus {
+  background-color: var(--logo-hover-color);
+  color: var(--white-logo-hero-color);
 }
-   /* section projects */
+/* section projects */
 
 .projects-hidden {
-    display: none;
+  display: none;
 }
 
-.projects-list{
-    list-style: none;
+.projects-list {
+  list-style: none;
 }
 
 .projects {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    background-color: var(--white-logo-hero-color);
-     border: 1px solid var(--card-background-color); 
+  font-weight: 700;
+  font-size: 18px;
+  /* line-height: 36px; */
+  line-height: 2;
+  letter-spacing: 0.06em;
+  background-color: var(--white-logo-hero-color);
+  border: 1px solid var(--card-background-color);
 }
 
 .projects:hover,
-.projects:focus{
-    border: 1px solid var(--logo-hover-color);
+.projects:focus {
+  border: 1px solid var(--logo-hover-color);
 }
 
-.project-description{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: var(--paragraps-color);
+.project-description {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 30px; */
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--paragraps-color);
 }
-
-
-
-
-/*
-background for pictures HTML est --white-logo-hro-color; 
-Також ви часто для всіх елементів прописуєте `font-style:normal`,
-але це дефолтне значення..
- Задайте колір фону елементам,
- для яких це потрібно. Наприклад секція наша команда фон попелястий,
- а фон карток білий.
-Не забувайте підсвічувати синім кольором посилання на сторінку,
-на якій знаходиться користувач (Олександр Репета у своєму вебінарі наводив приклад із класом current, зверніть на це увагу).
-don't forget to check according to rules
-check pourcentage line-height
-Buttons не наслідують шрифт від батька,
-тому кнопкам потрібно вказувати шрифт
-Скажіть,
-будь ласка у портфоліо посилання ставити на малюнок чи підпис?Це все посилання. В лішку вкладаємо зображення і заголовок і абзац
-Сторінка на якій знаходится користувач,
-має бути синього кольору. Тобто не просто hoverна цих елементах,
-а ще й постійно синя,
-коли користувач знаходится на цій сторінці. Там потрібно задати окремий клас current. І цей класс для студії задається в лінку студії,
-а там де портфоліо,
-то дається лінку портфоліо
